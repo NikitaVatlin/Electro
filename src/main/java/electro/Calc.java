@@ -8,40 +8,40 @@ package electro;
  * The Class Calc.
  */
 public abstract class Calc {
-	
+
 	/** The base tarif. */
-	private double baseTarif=3.5;
-	
+	private double baseTarif = 3.5;
+
 	/**
 	 * Mul.
 	 *
 	 * @param indications the indications
-	 * @param sum the sum
+	 * @param sum         the sum
 	 * @return the double
 	 */
 	public double mul(double indications, double sum) {
-		sum+=baseTarif*indications;
+		sum += baseTarif * indications;
 		return sum;
 	}
-	
+
 	/**
 	 * Gets the base tarif.
 	 *
 	 * @return the base tarif
 	 */
 	public double getBaseTarif() {
-		return baseTarif;	
+		return baseTarif;
 	}
-	
+
 	/**
 	 * Sets the base tarif.
 	 *
 	 * @param tarif the new base tarif
 	 */
 	public void setBaseTarif(double tarif) {
-		this.baseTarif=tarif;
+		this.baseTarif = tarif;
 	}
-	
+
 	/**
 	 * Gets the multi all.
 	 *
@@ -50,6 +50,5 @@ public abstract class Calc {
 	public void getMultiAll() {
 
 	}
-
 
 }

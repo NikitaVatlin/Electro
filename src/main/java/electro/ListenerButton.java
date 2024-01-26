@@ -7,8 +7,8 @@ public class ListenerButton implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		String exitHat="Выйти??";
-		String exitLow="Завершение работы пррограммы";
+		String exitHat = "пїЅпїЅпїЅпїЅпїЅ??";
+		String exitLow = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
 		new Exit(exitHat, exitLow);
 
 	}
